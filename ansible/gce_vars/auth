@@ -1,0 +1,5 @@
+---
+# Google Compute Engine required authentication global variables
+project: casestudy-project
+credentials_file: ~/casestudy-project-209848140974.json
+auth_kind: serviceaccount
