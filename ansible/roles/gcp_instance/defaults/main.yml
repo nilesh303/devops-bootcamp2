@@ -1,0 +1,6 @@
+ansible_ssh_private_key_file: "~/.ssh/id_rsa"
+region: "asia-southeast1"
+zone: "asia-southeast1-b"
+credentials_file: "~/casestudy-project-209848140974.json"
+project_id: "casestudy-project"
+auth_kind: "serviceaccount"
