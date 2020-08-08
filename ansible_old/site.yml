@@ -1,0 +1,5 @@
+---
+- import_playbook: gce-instances.yml
+- import_playbook: gce-docker.yml
+  #  tags:
+  # - create
