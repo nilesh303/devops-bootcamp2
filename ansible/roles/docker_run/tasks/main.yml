@@ -1,7 +1,7 @@
 ---
 - name: Create a container
   docker_container:
-    name: casestudy-spring
+    name: Casestudy-Spring-Boot
     image: "{{ docker_image }}"
     ports:
     - "8080:8080"
