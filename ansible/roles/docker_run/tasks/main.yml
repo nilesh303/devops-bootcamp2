@@ -4,7 +4,7 @@
     name: Casestudy-Spring-Boot
     image: "{{ docker_image }}"
     ports:
-    - "8080:8080"
+    - "8080:8888"
   when:
     - ansible_connection != "docker"
 
